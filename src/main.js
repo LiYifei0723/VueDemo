@@ -10,7 +10,7 @@ import './assets/fonts/iconfont.css'
 
 import axios from 'axios'
 //配置请求
-axios.defaults.baseURL = 'http://127.0.0.1:8888/api/private/v1/'
+axios.defaults.baseURL = 'https://www.liulongbin.top:8888/api/private/v1/'
 //授权API，添加Authorization字段
 axios.interceptors.request.use(config => {
   config.headers.Authorization = window.sessionStorage.getItem('token')

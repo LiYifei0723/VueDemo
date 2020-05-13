@@ -5,7 +5,7 @@
     <el-header>
       <div>
         <img src="../../assets/img/logo.jpg" alt="">
-        <span>电商后台管理系统</span>
+        <span style="font-size: 22px;user-select: none;">电商后台管理系统</span>
       </div>
       <el-button type="info" @click="loginOut">退出</el-button>
     </el-header>
