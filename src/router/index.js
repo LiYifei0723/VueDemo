@@ -2,15 +2,15 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Login from "../views/Login/Login";
 import Home from "../views/Home/Home";
-import Welcome from "../components/Welcome";
-import User from "../views/Home/children/User";
-import Categories from "../views/Home/children/Categories";
-import Goods from "../views/Home/children/Goods";
-import Orders from "../views/Home/children/Orders";
-import Params from "../views/Home/children/Params";
-import Reports from "../views/Home/children/Reports";
-import Rights from "../views/Home/children/Rights";
-import Roles from "../views/Home/children/Roles";
+import Welcome from "../views/Home/Welcome";
+import User from "../views/User/User";
+import Categories from "../views/Goods/Categories";
+import Goods from "../views/Goods/Goods";
+import Orders from "../views/Order/Orders";
+import Params from "../views/Goods/Params";
+import Reports from "../views/Data/Reports";
+import Rights from "../views/Authority/Rights";
+import Roles from "../views/Authority/Roles";
 
 Vue.use(VueRouter)
 

@@ -27,9 +27,11 @@ import {
   Dialog,
   Tag,
   Tree,
+  Cascader,
   MessageBox
 } from "element-ui";
 
+Vue.use(Cascader)
 Vue.use(Tree)
 Vue.use(Tag)
 Vue.use(Dialog)

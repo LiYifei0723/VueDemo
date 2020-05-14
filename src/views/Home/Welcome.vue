@@ -1,5 +1,5 @@
 <template>
-  <h1>欢迎</h1>
+  <h1>Welcome</h1>
 </template>
 
 <script>
